@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <title>Perguntas e Respostas - PWA</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f8f9fa;
+      margin: 40px auto;
+      max-width: 800px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .pergunta {
+      margin-bottom: 1.5em;
+    }
+    .resposta {
+      background: #fff;
+      padding: 10px 15px;
+      border-left: 4px solid #007acc;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    b, i, u {
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <h1>Programação Web Avançada — Ficha GitHub</h1>
+
+  <div class="pergunta">
+    <p><b>1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</b></p>
+    <div class="resposta">
+      <p><b>Commit</b>: guarda uma versão local das alterações.</p>
+      <p><b>Push</b>: envia as alterações locais para o repositório remoto.</p>
+      <p><b>Pop</b>: reaplica alterações temporárias guardadas com <i>stash</i>.</p>
+      <ul>
+        <li><u>Commit</u>: Local</li>
+        <li><u>Push</u>: Remoto</li>
+        <li><u>Pop</u>: Recupera mudanças guardadas</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pergunta">
+    <p><b>2 – Quais são as vantagens de usar Branchs num repositório git?</b></p>
+    <div class="resposta">
+      <ol>
+        <li>Permite desenvolver novas funcionalidades em paralelo.</li>
+        <li>Evita alterar o código principal (main).</li>
+        <li>Facilita trabalho colaborativo e revisão de código.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="pergunta">
+    <p><b>3 – Nos Merges resultantes de um “Pop” podem ocorrer conflitos. Em que consistem e como se resolvem?</b></p>
+    <div class="resposta">
+      <p>Conflitos surgem quando duas alterações interferem entre si. O Git marca as diferenças no ficheiro.</p>
+      <ul>
+        <li>Editar o ficheiro e escolher as linhas corretas.</li>
+        <li>Guardar e usar <code>git add</code> + <code>git commit</code>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pergunta">
+    <p><b>4 – “Clone” e “Fork” replicam repositórios Git. Quais as diferenças?</b></p>
+    <div class="resposta">
+      <p><b>Clone</b>: copia um repositório localmente no teu computador.</p>
+      <p><b>Fork</b>: cria uma cópia do repositório na tua conta GitHub, para modificações independentes.</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
